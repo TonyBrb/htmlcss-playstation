@@ -11,3 +11,8 @@ header{
   line-height: 40px;
   background-color: aquamarine;
 }
+
+.jumbotron .container-fluid{
+  height: 500px;
+  background-color: yellow;
+}
