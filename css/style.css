@@ -176,6 +176,23 @@ form li a{
   color: white;
 }
 
+.new-entry-game-dispari,
+.new-entry-game-pari{
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.new-entry-game-dispari img,
+.new-entry-game-pari img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.nuove-uscite .container h2,
+.nuove-uscite .container h4{
+  margin-bottom: 20px;
+}
+
 /* MEDIA QUERY */
 
 
