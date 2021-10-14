@@ -27,8 +27,38 @@ header{
   background-color: white;
 }
 
-.navbar>.container-fluid{
+.navbar{
   padding-left: 0;
+  padding-right: 0;
+}
+
+.ab-mobile-menu{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+form li{
+  list-style: none;
+}
+
+form li a{
+  color: black !important;
+  text-decoration: none;
+}
+
+.ab-btn{
+  border-radius: 20px;
+  height: 40px;
+}
+
+.search{
+  width: 25px;
+  margin-left: 20px;
+}
+
+.search img{
+  width: 100%;
 }
 
 
