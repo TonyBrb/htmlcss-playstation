@@ -248,6 +248,27 @@ form li a{
   border-color: #D9DADC;
 }
 
+.playstation-store .container{
+  margin-top: 40px;
+}
+
+.playstation-store .container h5{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: grey;
+}
+
+.ps-store-img{
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.ps-store-img img{
+  width: 100%;
+}
+
+
+
 /* MEDIA QUERY */
 
 
