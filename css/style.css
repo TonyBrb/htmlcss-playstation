@@ -267,6 +267,77 @@ form li a{
   width: 100%;
 }
 
+.playstation-now{
+  width: 100%;
+  background-color: #161C3B;
+  color: white;
+  min-height: 384px;
+}
+
+.ps-now-img{
+  width: 100%;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.ps-now-img img{
+  width: 60%;
+}
+
+.ps-now-game-img{
+  width: 100%;
+}
+
+.ps-now-game-img img{
+  width: 100%;
+}
+
+.playstation-now .ab-btn{
+  width: 215px;
+  margin-top: 30px;
+  color: black;
+  background-color: #D9DADC;
+  border-color: #D9DADC;
+}
+
+.social{
+  width: 100%;
+}
+
+.container-ab{
+  width: 40%;
+  margin: 100px auto;
+}
+
+.social-logo{
+  width: 100%;
+}
+
+.social-logo img{
+  width: 100%;
+}
+
+.container-ab h1{
+  padding-bottom: 60px;
+}
+
+footer{
+  width: 100%;
+  background-color: #00439C;
+}
+
+footer .container{
+  min-height: 500px;
+}
+
+.play-logo{
+  width: 100px;
+}
+
+.play-logo img{
+  width: 100%;
+}
+
 
 
 /* MEDIA QUERY */
@@ -285,6 +356,14 @@ form li a{
 
   .giochi-aprile{
     display: none;
+  }
+
+  .container-ab{
+  width: 100%;
+}
+
+  .social-logo{
+    margin-bottom: 40px;
   }
 
 }
