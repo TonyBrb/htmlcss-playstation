@@ -94,12 +94,132 @@ form li a{
   color: white;
 }
 
-
-.two{
-  height: 500px;
-  background-color: red;
+.jumbo-img-down-dispari, .jumbo-img-down-pari{
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
-.six{
-  height: 500px;
+.jumbo-img-down-dispari img, .jumbo-img-down-pari img{
+  width: 100%; 
+}
+
+.ps-presentation{
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.ps-presentation .col.text-center h6{
+  color: #0072CE;
+  margin-bottom: -5px;
+}
+
+.ps-presentation .col.text-center h1{
+  margin-bottom: 15px;
+}
+
+.ps-presentation .col.text-center h5{
+  color: grey;
+}
+
+.descrizione h6{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.ps5-photo{
+  width: 100%;
+}
+
+.ps5-photo img{
+  width: 100%;
+}
+
+.btn.btn-primary.ab-btn{
+  width: 200px;
+}
+
+.gadgets{
+  width: 100%;
+}
+
+.gadgets img{
+  width: 80%;
+}
+
+.selected{
+  border-bottom: 2px solid #0072CE;
+}
+
+.it-takes-two{
+  width: 100%;
+  color: white;
+  position: relative;
+}
+
+.it-takes-two img{
+  width: 100%;
+}
+
+.it-takes-two .container img{
+  width: 60%;
+}
+
+.it-takes-two .container{
+  position: absolute;
+  top: 30px;
+  left: 8%;
+}
+
+.nuove-uscite{
+  background-color: #1F1F1F;
+  color: white;
+}
+
+/* MEDIA QUERY */
+
+
+@media screen and (max-width: 576px) {
+  .jumbo .row .col-6{
+    margin-bottom: 20px;
+  }
+  .ps-presentation .container .row .col.text-center{
+    margin-bottom: 40px;
+  } 
+  .title-gadget{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .jumbo .row .col-sm-4{
+    margin-bottom: 20px;
+  }
+  .ps-presentation .container .row .col.text-center{
+    margin-bottom: 40px;
+  } 
+  .title-gadget{
+    display: none;
+  }
+  .ps-presentation .container .row .col-4.col-md{
+    margin-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .jumbo .row .col-md-4{
+    margin-bottom: 20px;
+  }
+  .ps-presentation .container .row .col.text-center{
+    margin-bottom: 40px;
+  }
+  .title-gadget{
+    display: inline-block;
+  }
+
+  .ps-presentation .container .row .col-4.col-md{
+    margin-left: 20px;
+  }
+
 }
