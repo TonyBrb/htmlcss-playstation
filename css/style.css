@@ -193,10 +193,65 @@ form li a{
   margin-bottom: 20px;
 }
 
+.ps4-img{
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.ps4-img img{
+  width: 100%;
+}
+
+.playstation-4 .container h1:first-of-type{
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+.playstation-4 .container h5{
+  padding-bottom: 40px;
+  color: grey;
+}
+
+.playstation-4 .container h5:first-of-type{
+  padding-bottom: 0;
+}
+
+.playstation-plus{
+  width: 100%;
+  min-height: 246px;
+  background-color: #BEBCBB;
+}
+
+.ps-plus-img{
+  width: 100%;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.ps-plus-img img{
+  width: 60%;
+}
+
+.ps-plus-game-img{
+  width: 100%;
+}
+
+.ps-plus-game-img img{
+  width: 100%;
+}
+
+.playstation-plus .ab-btn{
+  width: 210px;
+  margin-top: 30px;
+  color: #2D64E6;
+  background-color: #D9DADC;
+  border-color: #D9DADC;
+}
+
 /* MEDIA QUERY */
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
   .jumbo .row .col-6{
     margin-bottom: 20px;
   }
@@ -206,6 +261,11 @@ form li a{
   .title-gadget{
     display: none;
   }
+
+  .giochi-aprile{
+    display: none;
+  }
+
 }
 
 @media screen and (min-width: 576px) {
@@ -220,6 +280,9 @@ form li a{
   }
   .ps-presentation .container .row .col-4.col-md{
     margin-left: 0;
+  }
+  .giochi-aprile{
+    display: none;
   }
 }
 
@@ -237,6 +300,13 @@ form li a{
 
   .ps-presentation .container .row .col-4.col-md{
     margin-left: 20px;
+  }
+  .giochi-aprile{
+    display: block;
+  }
+
+  .playstation-plus .container{
+    padding-top: 40px;
   }
 
 }
