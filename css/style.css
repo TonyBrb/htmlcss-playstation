@@ -62,9 +62,36 @@ form li a{
 }
 
 
-.jumbotron .container-fluid{
-  height: 500px;
-  background-color: yellow;
+.jumbotron{
+  width: 100%;
+  min-height: 570px;
+  color: white;
+  position: relative;
+}
+
+.sfondo-jumbo{
+  width: 100%;
+  background-size: cover;
+}
+
+.retournal{
+  width: 50%;
+}
+
+.jumbotron .container{
+  position: absolute;
+  top: 40%;
+  left: 7%;
+}
+
+.jumbotron .container img, .jumbotron .container h2, .jumbotron .container p{
+  padding-bottom: 15px;
+}
+
+
+.bg-orange{
+  background-color: #CD3D0F;
+  color: white;
 }
 
 
