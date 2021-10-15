@@ -64,14 +64,9 @@ form li a{
 
 .jumbotron{
   width: 100%;
-  min-height: 570px;
-  color: white;
-  position: relative;
-}
-
-.sfondo-jumbo{
-  width: 100%;
+  background-image: url(../img/jumbo-bg.png);
   background-size: cover;
+  color: white;
 }
 
 .retournal{
@@ -79,9 +74,9 @@ form li a{
 }
 
 .jumbotron .container{
-  position: absolute;
-  top: 40%;
-  left: 7%;
+  padding-top: 20%;
+  padding-bottom: 3%;
+  margin-bottom: 40px;
 }
 
 .jumbotron .container img, .jumbotron .container h2, .jumbotron .container p{
@@ -153,8 +148,9 @@ form li a{
 
 .it-takes-two{
   width: 100%;
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-size: cover;
   color: white;
-  position: relative;
 }
 
 .it-takes-two img{
@@ -166,14 +162,18 @@ form li a{
 }
 
 .it-takes-two .container{
-  position: absolute;
-  top: 30px;
-  left: 8%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .nuove-uscite{
   background-color: #1F1F1F;
   color: white;
+}
+
+.nuove-uscite .container{
+  padding-top: 30px;
+  padding-bottom: 5%;
 }
 
 .new-entry-game-dispari,
@@ -218,7 +218,6 @@ form li a{
 
 .playstation-plus{
   width: 100%;
-  min-height: 246px;
   background-color: #BEBCBB;
 }
 
@@ -271,7 +270,6 @@ form li a{
   width: 100%;
   background-color: #161C3B;
   color: white;
-  min-height: 384px;
 }
 
 .ps-now-img{
@@ -324,10 +322,12 @@ form li a{
 footer{
   width: 100%;
   background-color: #00439C;
+  color: white;
 }
 
 footer .container{
-  min-height: 500px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .play-logo{
@@ -336,6 +336,31 @@ footer .container{
 
 .play-logo img{
   width: 100%;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.sony-logo{
+  width: 150px;
+}
+
+.sony-logo img{
+  width: 100%;
+}
+
+footer h6{
+  padding-top: 40px;
+}
+
+footer p{
+  padding-top: 15px;
 }
 
 
@@ -366,6 +391,16 @@ footer .container{
     margin-bottom: 40px;
   }
 
+  .playstation-plus .container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .playstation-now .container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
 }
 
 @media screen and (min-width: 576px) {
@@ -384,6 +419,17 @@ footer .container{
   .giochi-aprile{
     display: none;
   }
+
+  .playstation-plus .container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .playstation-now .container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
 }
 
 
@@ -404,9 +450,14 @@ footer .container{
   .giochi-aprile{
     display: block;
   }
-
   .playstation-plus .container{
-    padding-top: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .playstation-now .container{
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
 }
