@@ -1,5 +1,5 @@
 header{
-  height: 100px;
+  min-height: 100px;
 }
 
 .col.bg-black{
@@ -53,6 +53,7 @@ form li a{
   border-radius: 20px;
   height: 40px;
   outline: solid 2px black;
+  transition: border 1s;
 }
 
 .ab-btn.bg-orange{
@@ -105,6 +106,7 @@ form li a{
   width: 100%;
   border-radius: 20px;
   overflow: hidden;
+  transition: 1s;
 }
 
 .jumbo-img-down-dispari img, .jumbo-img-down-pari img{
@@ -160,11 +162,13 @@ form li a{
 
 .gadgets{
   width: 100%;
+  
 }
 
 .gadgets img{
   width: 80%;
   opacity: 0.5;
+  transition: all 1s;
 }
 
 .selected img{
@@ -417,6 +421,28 @@ footer p{
   padding-top: 15px;
 }
 
+/* BONUS */
+
+.menu-dropdown{
+  background-color: white;
+}
+
+.menu-dropdown ul{
+  list-style: none;
+}
+
+.menu-dropdown ul li{
+  margin-right: 20px;
+  padding-top: 10px;
+}
+
+.drop-img{
+  width: 100px;
+}
+
+.drop-img img{
+  width: 100%;
+}
 
 
 /* MEDIA QUERY */
